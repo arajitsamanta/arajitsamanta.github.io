@@ -43,6 +43,14 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #7bc3d1;
 }
+a[href^="mailto:"]
+{ 
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
+  font-size: 15px;
+  text-decoration: underline
+
+}
 ul, ol {
 	list-style: none;
 }
