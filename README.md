@@ -2,7 +2,7 @@
 
 This project contains source code for my personal portfolio website.
 
-Website can be found [here](http://arajitsamanta.conm)
+Website can be found [here](http://arajitsamanta.com)
 
 ## Installation
 * Do a git clone for this repository.
