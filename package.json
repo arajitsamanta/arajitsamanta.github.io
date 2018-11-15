@@ -1,0 +1,25 @@
+{
+  "name": "arajitsamanta.github.io",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arajitsamanta/arajitsamanta.github.io.git"
+  },
+  "author": "Arajit Samanta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arajitsamanta/arajitsamanta.github.io/issues"
+  },
+  "homepage": "https://github.com/arajitsamanta/arajitsamanta.github.io#readme"
+}
