@@ -1,8 +1,8 @@
-var gulp        = require('gulp');
-var bs          = require('browser-sync').create();
+var gulp = require('gulp');
+var bs = require('browser-sync').create();
 
 
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', function () {
     bs.init({
         server: {
             baseDir: "./"
@@ -12,11 +12,11 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function () {
     gulp.watch('./**/*', gulp.series(bs.reload));
 });
 
 gulp.task(
     'default',
-    gulp.series(gulp.parallel('browser-sync','watch'))
+    gulp.series(gulp.parallel('browser-sync', 'watch'))
 );
